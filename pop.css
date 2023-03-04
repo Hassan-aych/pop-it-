@@ -1,0 +1,145 @@
+.title{
+    color:black;
+}
+#z{
+    margin-top: 60px;
+    border: solid;
+    color: black;
+    background-color: white;
+}
+
+
+.hello{
+    margin-top: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+#botton{
+    padding: 30px;
+    position:absolute;
+    text-align: left;
+}
+#botton2{
+    padding: 30px;
+    position:absolute;
+    text-align: left;
+}
+#mybotton{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+:root{
+    --board-size:450px;
+}
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+#w{
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://st4.depositphotos.com/18803028/29702/i/450/depositphotos_297025152-stock-photo-colored-circle-seamless-pattern-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+#w1{
+    height: 100hv;
+    display: flex;
+    background-color: rgb(130, 130, 79);
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+   
+
+.board{
+    width: var(--board-size);
+    height: var(--board-size);
+    border-radius: 20px;
+   
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-top: 100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    
+    
+}
+.row{
+    width: 100%;
+    height:calc(var(--board-size)/6);
+    box-shadow: inset 0 0 10px rgba(0,0,0,
+    .5);
+    padding: 8 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#row1{
+    background-color:purple ;
+}
+#row2{
+    background-color: blue;
+}
+#row3{
+    background-color: cyan;
+}
+
+.pop{
+    width: 100%;
+    height:100%;
+    border-radius: 100%;
+    box-shadow: inset 0 0 10px rgba(0,0,0,
+    .5);
+    cursor: pointer;
+}
+.pop:active{
+    box-shadow: inset 0 0 100px rgba(0,0,0,
+    .5) ;
+}
+#a{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    margin-left: 4cm;
+        
+
+}
+#timer{
+    color:aliceblue;
+    margin-bottom: 40%;
+    
+    
+}
+
+ 
+ #RT {
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 30px;
+    text-align: left ;
+    margin-left: 80px;
+ }
+ #rletter{
+    background-color: aliceblue;
+ }
+
+   
+ 
+
